@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hhp.android_practice1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Start Selection" />
+
+        <Switch
+            android:id="@+id/st1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rayout1"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="What kind of animal do you like?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/dogcheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dog"/>
+        <CheckBox
+            android:id="@+id/catcheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cat"/>
+        <CheckBox
+            android:id="@+id/racheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Raccoon"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:visibility="invisible"
+                android:id="@+id/dogimg"
+                android:src="@drawable/dog"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="300dp" />
+            <ImageView
+                android:visibility="invisible"
+                android:id="@+id/catimg"
+                android:src="@drawable/ca"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="300dp" />
+            <ImageView
+                android:visibility="invisible"
+                android:id="@+id/raimg"
+                android:src="@drawable/ra"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="300dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
