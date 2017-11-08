@@ -14,7 +14,7 @@ import java.util.ArrayList;
  * Created by pc on 2017-08-07.
  */
 public class SubwayAPI {
-    String strUrl = "http://openapi.seoul.go.kr:8088/686549444e696f6439386b73727373/xml/SearchSTNBySubwayLineService/1/683/";
+    String strUrl = "인증키 만료";
     static ArrayList<String> station_cd = new ArrayList<>();
     static ArrayList<String> station_nm = new ArrayList<>();
     static ArrayList<String> station_lm = new ArrayList<>();
