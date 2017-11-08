@@ -140,6 +140,6 @@ public class SubwayArrive {
             } finally {
                 conn.disconnect();
             }
-        }
+        } 
     }
 }
