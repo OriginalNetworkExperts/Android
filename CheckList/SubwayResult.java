@@ -23,7 +23,7 @@ public class SubwayResult {
     public String getSubwayName() { return subwayName; }
 
     public String getSubwayLinenum(){
-        return subwayLinenum;
+        return subwayLinenum; 
     }
 
 }
