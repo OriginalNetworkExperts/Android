@@ -120,7 +120,7 @@ public class DefaultDiscovery extends AbstractDiscovery {
 
     @Override
     protected void onCancelled() {
-        if (mPool != null) {
+        if (mPool != null) { 
             synchronized (mPool) {
                 mPool.shutdownNow();
                 // FIXME: Prevents some task to end (and close the Save DB)
