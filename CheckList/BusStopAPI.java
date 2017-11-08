@@ -24,7 +24,7 @@ import java.util.ArrayList;
 
 public class BusStopAPI {
     String serviceUrl = "http://openapi.gbis.go.kr/ws/rest/busstationservice";
-    String serviceKey = "DhmrVYeCftvLOg%2Ff17mXzZHO5lDvipMLJN7L0TzEPQ0MJ1VzYlSU7s4YZzKPrq5TbborQAuca8GrC%2BTu%2Fp%2FNHw%3D%3D";
+    String serviceKey = "";
     ArrayList<String> stationIds=new ArrayList<>();
     //String[] stationIds;
     ArrayList<String> stationNames=new ArrayList<>();
