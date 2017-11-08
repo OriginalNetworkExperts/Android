@@ -1,7 +1,7 @@
 package com.oneproject.www.allinone;
 
 /**
- * Created by 우충범 on 2017-08-15.
+ * Created by *** on 2017-08-15.
  */
 
 public class BusDB {
