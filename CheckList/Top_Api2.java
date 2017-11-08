@@ -124,7 +124,7 @@ public class Top_Api2 extends Fragment{
                     try {
                         buslist.clear();
                         routeIds = busArrivalAPI.getRouteId();
-                        System.out.println("이거 안나오면 문제래요" + routeIds);
+                        System.out.println("오류" + routeIds);
                         int i = 0;
                         ArrayList<String> stringBuilder = busArrivalAPI.getArrival();
                         System.out.println(routeIds.size());
@@ -135,10 +135,6 @@ public class Top_Api2 extends Fragment{
                             Random r = new Random();
                             b = r.nextInt(20) + 5;
                             c = r.nextInt(50) + 30;
-                            //test.append(routeIds.get(i++)+"  ");
-                            //System.out.println("이거 안나오면 더 문제래요" + routeIds.get(i++));
-                            //test.append(select(routeIds.get(i++))+"t\n");
-                            //busItem.put("time", b + "분후");
                             busItem.put("time", stringBuilder.get(i));
                             //busItem.put("arrive", c + "번 버스");
                             if(nodap)
