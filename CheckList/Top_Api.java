@@ -187,9 +187,6 @@ public class Top_Api extends Fragment {
                         chSubway2.setText(resTime2 + "분 후");
                     }
                 }
-                //Toast.makeText(getActivity(), "완", Toast.LENGTH_SHORT).show();
-
-
             }
         }, 1000);
 
